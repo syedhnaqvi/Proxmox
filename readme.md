@@ -1,6 +1,8 @@
 # OPNsense
 Installing Pfsense on VM - Lab
 <img src="https://img.shields.io/badge/Firewall-OPNsense-orange?logo=opnsense&logoColor=white"></img>
+![Proxmox](https://img.shields.io/badge/Proxmox-virtualization-orange)
+
 
 ## Objective
 This lab includes steps for installing OPNsense firewall in a VM for leanring and educational purpose .
