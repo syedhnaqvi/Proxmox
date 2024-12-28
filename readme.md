@@ -5,7 +5,7 @@ Installing Proxmox Baremetal HV VE
 
 ## Hardware Requirements
 
-##Recommended Hardware
+<h2>Recommended Hardware</h2>
 <ul>
 <li>Intel 64 or AMD64 with Intel VT/AMD-V CPU flag.
 <li>Memory, minimum 2 GB for OS and Proxmox VE services. Plus designated memory for guests. For Ceph or ZFS additional memory is required, approximately 1 GB memory for every TB used storage.
@@ -17,9 +17,9 @@ Installing Proxmox Baremetal HV VE
 </li>
 </ui>
 
-##For Evaluation
+<h1>For Evaluation</h1>
 
-##Minimum Hardware (for testing only)
+<h2>Minimum Hardware (for testing only)</h2>
 <ui>
 <li>
 <li>CPU: 64bit (Intel 64 or AMD64)
@@ -30,7 +30,7 @@ Installing Proxmox Baremetal HV VE
 </li>
 </ui>
 
-## Objective
+<h1>Objective</h1>
 This lab includes steps for installing Proxmox for leanring and educational purpose . Not meant for any production environments
 
 ### Skills Learned
