@@ -56,12 +56,12 @@ This lab includes steps for installing Proxmox for leanring and educational purp
 ### Proxmox Installation & Setup Videos
 <p>These vidoes were used this project to install and steup proxmox</p>
 
-<a href="https://youtu.be/xD9Xyt2mdSI?si=LBJspiWpWnq34VAY">Proxmox Installation"</a>
+<a href="https://youtu.be/xD9Xyt2mdSI?si=LBJspiWpWnq34VAY">Proxmox Installation</a>
 
-<a href="https://www.youtube.com/watch?v=_u8qTN3cCnQ">Proxmox Disk Partition Setup"</a>
+<a href="https://www.youtube.com/watch?v=_u8qTN3cCnQ">Proxmox Disk Partition Setup</a>
 
-<a href="https://youtu.be/TA0gZs0X_7o">Promox Networking"</a>
+<a href="https://youtu.be/TA0gZs0X_7o">Promox Networking</a>
 
 <h1>Other Links to learn mmore about Proxmox</h1>
-<a href="https://www.youtube.com/watch?v=LCjuiIswXGs&t=344s">Complete Proxmox Course Series Videos"</a>
+<a href="https://www.youtube.com/watch?v=LCjuiIswXGs&t=344s">Complete Proxmox Course Series Videos</a>
 
