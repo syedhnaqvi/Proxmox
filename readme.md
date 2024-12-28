@@ -42,9 +42,9 @@ This lab includes steps for installing Proxmox for leanring and educational purp
 ### What is Proxmox ?
 <p>Proxmox Virtual Environment is a complete open-source platform for enterprise virtualization. With the built-in web interface you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools using a single solution.</p>
 
-<a href="https://opnsense.org/about/about-opnsense/">About Proxmox</a>
+<a href="https://www.proxmox.com/en/">About Proxmox</a>
 
-<a href="https://opnsense.org/users/get-started/">Download</a>
+<a href="https://www.proxmox.com/en/downloads">Download</a>
 
 
 ### Project Hardware Used
@@ -53,34 +53,15 @@ This lab includes steps for installing Proxmox for leanring and educational purp
 - USB Drive 16 GB
 - 32 Gb RAM
 
-### Extraction Using bzip tool
-- install on WIN platfrom or others as per insructions
-- ON WIN platform use powershell in admin mode and run command from location where bzip2.exe was installed in my case it was C:\Program Files (x86)\GnuWin32\bin
-  - .\bzip2.exe -d "D:\Home_Lab-Softwares\OPNsense-24.7-dvd-amd64.iso.bz2" chnage your downloaed location for OPNsense DVD Image file it will take some time to extarct the ISO file.
-    ![image](https://github.com/user-attachments/assets/d40cee1c-6d70-4d2e-b2f0-a411c86e0775)
-    
-### Installing to VM Virtual Box 
-Machine > New
+### Proxmox Installation & Setup Videos
+<p>These vidoes were used this project to install and steup proxmox</p>
 
-![image](https://github.com/user-attachments/assets/c63b57ee-3f85-42ad-af10-5b09a8756b57)
+<a href="https://youtu.be/xD9Xyt2mdSI?si=LBJspiWpWnq34VAY"Proxmox Installation"</a>
 
+<a href="https://www.youtube.com/watch?v=_u8qTN3cCnQ"Proxmox Disk Partition Setup"</a>
 
-![image](https://github.com/user-attachments/assets/853d3ac4-0adf-4c06-91f8-f119819822b9)
+<a href="https://youtu.be/TA0gZs0X_7o"Promox Networking"</a>
 
-
-![image](https://github.com/user-attachments/assets/aee9c1a6-5cff-41bf-8e73-3a1e881e6683)
-
-
-**Give 2 Processor **
-
-![image](https://github.com/user-attachments/assets/1a7b8dc9-ebec-4327-a9b1-db64c19e1412)
-
-
-![image](https://github.com/user-attachments/assets/436544be-ef77-4a77-8fe0-a91427f62dac)
-
-
-![image](https://github.com/user-attachments/assets/4cee0d20-88b4-473c-a5c6-1e4ee8db5037)
-
-### Start Machine and give extarcted ISO image location it will start booting 
-
+<h1>Other Links to learn mmore about Proxmox</h1>
+<a href="https://www.youtube.com/watch?v=LCjuiIswXGs&t=344s"Complete Proxmox Course Series Videos"</a>
 
