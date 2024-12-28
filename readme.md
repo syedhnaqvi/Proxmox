@@ -4,6 +4,7 @@ Installing Proxmox Baremetal HV VE
 
 
 ## Hardware Requirements
+
 #Recommended Hardware
 -Intel 64 or AMD64 with Intel VT/AMD-V CPU flag.
 -Memory, minimum 2 GB for OS and Proxmox VE services. Plus designated memory for guests. For Ceph or ZFS additional memory is required, approximately 1 GB memory for every TB used storage.
@@ -14,6 +15,7 @@ Installing Proxmox Baremetal HV VE
 -For PCI(e) passthrough a CPU with VT-d/AMD-d CPU flag is needed.
 
 ##For Evaluation
+
 #Minimum Hardware (for testing only)
 -CPU: 64bit (Intel 64 or AMD64)
 -Intel VT/AMD-V capable CPU/Mainboard (for KVM full virtualization support)
@@ -22,13 +24,13 @@ Installing Proxmox Baremetal HV VE
 -One NIC
 
 ## Objective
-This lab includes steps for installing OPNsense firewall in a VM for leanring and educational purpose .
+This lab includes steps for installing Proxmox for leanring and educational purpose . Not meant for any production environments
 
 ### Skills Learned
 
-- What is OPNsense
-- Installing OPNsense on VM
-- Setting up OPNsense on VM.
+- What is Proxmox
+- Installing Proxmox
+- Setting up Proxmox.
 
 ### What is OPNsense ?
 OPNsense is an open source, easy-to-use and easy-to-build FreeBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, 
