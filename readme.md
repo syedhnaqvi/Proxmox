@@ -1,8 +1,25 @@
 # OPNsense
-Installing Pfsense on VM - Lab
-<img src="https://img.shields.io/badge/Firewall-OPNsense-orange?logo=opnsense&logoColor=white"></img>
+Installing Proxmox Baremetal HV VE
 ![Proxmox](https://img.shields.io/badge/Proxmox-virtualization-orange)
 
+
+## Hardware Requirements
+#Recommended Hardware
+-Intel 64 or AMD64 with Intel VT/AMD-V CPU flag.
+-Memory, minimum 2 GB for OS and Proxmox VE services. Plus designated memory for guests. For Ceph or ZFS additional memory is required, approximately 1 GB memory for every TB used storage.
+-Fast and redundant storage, best results with SSD disks.
+-OS storage: Hardware RAID with batteries protected write cache (“BBU”) or non-RAID with ZFS and SSD cache.
+-VM storage: For local storage use a hardware RAID with battery backed write cache (BBU) or non-RAID for ZFS. Neither ZFS nor Ceph are compatible with a hardware RAID controller. Shared and distributed storage is also possible.
+-Redundant Gbit NICs, additional NICs depending on the preferred storage technology and cluster setup – 10 Gbit and higher is also supported.
+-For PCI(e) passthrough a CPU with VT-d/AMD-d CPU flag is needed.
+
+##For Evaluation
+#Minimum Hardware (for testing only)
+-CPU: 64bit (Intel 64 or AMD64)
+-Intel VT/AMD-V capable CPU/Mainboard (for KVM full virtualization support)
+-Minimum 1 GB RAM
+-Hard drive
+-One NIC
 
 ## Objective
 This lab includes steps for installing OPNsense firewall in a VM for leanring and educational purpose .
