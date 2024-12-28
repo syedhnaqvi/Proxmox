@@ -5,7 +5,7 @@ Installing Proxmox Baremetal HV VE
 
 ## Hardware Requirements
 
-<h2>Recommended Hardware</h2>
+<h3>Recommended Hardware</h3>
 <ul>
 <li>Intel 64 or AMD64 with Intel VT/AMD-V CPU flag.
 <li>Memory, minimum 2 GB for OS and Proxmox VE services. Plus designated memory for guests. For Ceph or ZFS additional memory is required, approximately 1 GB memory for every TB used storage.
@@ -17,9 +17,9 @@ Installing Proxmox Baremetal HV VE
 </li>
 </ui>
 
-<h1>For Evaluation</h1>
+<h2>For Evaluation</h2>
 
-<h2>Minimum Hardware (for testing only)</h2>
+<h3>Minimum Hardware (for testing only)</h3>
 <ui>
 <li>
 <li>CPU: 64bit (Intel 64 or AMD64)
@@ -30,7 +30,7 @@ Installing Proxmox Baremetal HV VE
 </li>
 </ui>
 
-<h1>Objective</h1>
+<h2>Objective</h2>
 This lab includes steps for installing Proxmox for leanring and educational purpose . Not meant for any production environments
 
 ### Skills Learned
@@ -39,24 +39,19 @@ This lab includes steps for installing Proxmox for leanring and educational purp
 - Installing Proxmox
 - Setting up Proxmox.
 
-### What is OPNsense ?
-OPNsense is an open source, easy-to-use and easy-to-build FreeBSD based firewall and routing platform. OPNsense includes most of the features available in expensive commercial firewalls, 
-and more in many cases. It brings the rich feature set of commercial offerings with the benefits of open and verifiable sources.
+### What is Proxmox ?
+<p>Proxmox Virtual Environment is a complete open-source platform for enterprise virtualization. With the built-in web interface you can easily manage VMs and containers, software-defined storage and networking, high-availability clustering, and multiple out-of-the-box tools using a single solution.</p>
 
-<a href="https://opnsense.org/about/about-opnsense/">About OPNsense</a>
+<a href="https://opnsense.org/about/about-opnsense/">About Proxmox</a>
 
-<a href="https://opnsense.org/users/get-started/">Requirements</a>
-
-<a href="https://opnsense.org/download/">Downlaod OPNsense</a>
-
-![image](https://github.com/user-attachments/assets/4fc503e1-cf4a-443b-8eac-83001f6b0b8e)
+<a href="https://opnsense.org/users/get-started/">Download</a>
 
 
-### Tools Used
+### Project Hardware Used
 
-- OPNsense version24.7 DVD 
-- Hypervisor either Vmware or Oracke Virtualbox
-- bzip 1.0.5 file extractor Free can be downloaded from <a href="https://gnuwin32.sourceforge.net/packages/bzip2.htm">Download Link</a>
+- AMD Ryzen 7 processor 12 Core 
+- USB Drive 16 GB
+- 32 Gb RAM
 
 ### Extraction Using bzip tool
 - install on WIN platfrom or others as per insructions
